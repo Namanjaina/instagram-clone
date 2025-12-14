@@ -12,7 +12,7 @@ const reducer = combineReducers({
     newPost: newPostReducer,
     userDetails: userDetailsReducer,
     allUsers: allUsersReducer,
-    postOfFollowing: postOfFollowingReducer,
+    postOfFollowing: postOfFollowingReducer, 
     likePost: likePostReducer,
     followUser: followUserReducer,
     newComment: newCommentReducer,
