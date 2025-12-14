@@ -4,7 +4,7 @@ import { CLEAR_ERRORS, DELETE_POST_FAIL, DELETE_POST_REQUEST, DELETE_POST_SUCCES
 
 // New Post
 export const addNewPost = (postData) => async (dispatch) => {
-    try {
+    try { 
 
         dispatch({ type: NEW_POST_REQUEST });
         const config = { header: { "Content-Type": "application/json" } }
