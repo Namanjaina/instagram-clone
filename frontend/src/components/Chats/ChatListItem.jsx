@@ -6,7 +6,7 @@ import { io } from 'socket.io-client';
 
 const ChatListItem = ({ _id, users, latestMessage }) => {
 
-    const dispatch = useDispatch();
+    const dispatch = useDispatch(); 
     const params = useParams();
     const [friend, setFriend] = useState({});
 
