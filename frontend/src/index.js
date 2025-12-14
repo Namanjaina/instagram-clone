@@ -13,7 +13,7 @@ ReactDOM.render(
       <Router>
         <HelmetProvider>
           <App />
-        </HelmetProvider>
+        </HelmetProvider> 
       </Router>
     </Provider>
   </React.StrictMode>,
