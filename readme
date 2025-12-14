@@ -1,0 +1,35 @@
+
+# How to Run the Project (Setup Instructions)
+
+Follow the steps below to get the project running locally 
+
+# Setup Backend
+cd backend, 
+npm install
+
+Then start the backend server:
+
+npm run dev
+
+# Setup Frontend
+
+cd frontend
+
+npm install,
+npm start
+
+
+Features are -
+
+Authentication and User Management
+-  Secure Login/Signup Functionality
+-  Support for Email or Username-based Login
+-  Seamless Profile and Password Management
+-  Password Reset via Sendgrid Integration
+
+Messaging System
+-  User-Friendly Search for Chat Participants
+-  Seamless Creation of New Chats
+-  Real-Time Messaging Between Users
+-  Status Indicators for Typing and Online Presence
+
