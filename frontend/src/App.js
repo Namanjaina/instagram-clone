@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { loadUser } from './actions/userAction';
 import { lazy, Suspense, useEffect } from 'react';
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom'; 
 import { toast } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 import 'emoji-mart/css/emoji-mart.css';
