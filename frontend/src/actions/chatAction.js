@@ -8,7 +8,7 @@ export const getAllChats = () => async (dispatch) => {
         dispatch({ type: ALL_CHATS_REQUEST });
 
         const { data } = await axios.get('/api/v1/chats');
-
+ 
         dispatch({
             type: ALL_CHATS_SUCCESS,
             payload: data.chats,
