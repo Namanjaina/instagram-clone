@@ -4,7 +4,7 @@ import { ALL_MESSAGES_FAIL, ALL_MESSAGES_REQUEST, ALL_MESSAGES_SUCCESS, CLEAR_ER
 // Get All Messages
 export const getAllMessages = (chatId) => async (dispatch) => {
     try {
-
+ 
         dispatch({ type: ALL_MESSAGES_REQUEST });
 
         const { data } = await axios.get(`/api/v1/messages/${chatId}`);
