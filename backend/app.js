@@ -1,3 +1,4 @@
+ require('dotenv').config({ path: 'backend/config/config.env' });
 const express = require('express');
 const cookieParser = require('cookie-parser');
 const errorMiddleware = require('./middlewares/error');
@@ -13,7 +14,7 @@ app.use(fileUpload());
 app.use('/public', express.static('public'));
 
 if (process.env.NODE_ENV != "production") {
-    require('dotenv').config({ path: 'backend/config/config.env' });
+   
 }
 
 // import routes
