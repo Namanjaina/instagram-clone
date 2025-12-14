@@ -5,7 +5,7 @@ const Chat = require("../models/chatModel");
 // Send New Message
 exports.newMessage = catchAsync(async (req, res, next) => {
 
-    const { chatId, content } = req.body;
+    const { chatId, content } = req.body; 
 
     const msgData = {
         sender: req.user._id,
