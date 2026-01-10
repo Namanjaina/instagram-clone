@@ -126,5 +126,5 @@ Now your app should be running successfully 🎉
 
 Feel free to reach me through the below handles if you'd like to contact me.
 
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jigar-sablee)
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/naman-bagrecha-860624259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 [![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/naman_0705)
